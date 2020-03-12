@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    /* background-color: rgb(197, 17, 17); */
+    background-color: #fff;
+}
+
+.show.active{
+    display: none;
+}
+.logo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.logo img{
+    height: 400px;
+}
+.zhaopai{
+    margin: auto;
+    width: 320px;
+    height: 122px;
+    overflow: hidden;
+}
+.zhaopai img{
+    height: 100%;
+}
+
+.menu.active{
+    display: none;
+}
+.menu .top{
+    width: 100%;
+    overflow: hidden;
+}
+/* .menu .top .clear{
+    clear: both;//为了解决子元素不能撑开父元素
+} */
+.menu .top .bt{
+    width: 33.3333333333333333333%;
+    height: 50px;
+    float: left;
+    background-color: #d18b00;
+    text-align: center;
+    border: solid 1px orange;
+    cursor: pointer;
+    font-family: STKaiti;
+    opacity: .7;
+    box-sizing: border-box;
+}
+.menu .top .bt.active{
+    opacity: 1;
+}
+
+.menu .top .bt p{
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.menu .order{
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu .order.active{
+    display: none;
+}
+.menu .order .money{
+    height: 240px;
+    width: 45%;
+    border: solid 1px #666;
+    box-sizing: border-box;
+    padding: 10px 0;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.menu .order .money .image{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 10px;
+}
+.menu .order .money .image img{
+    height: 100%;
+}
